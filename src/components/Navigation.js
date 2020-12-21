@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Nav = styled.nav`
   padding: 1em;
@@ -69,6 +69,14 @@ const Navigation = () => {
               🌟
             </span>
             Favorites
+          </Link>
+        </li>
+        <li>
+          <Link to="/new">
+            <span aria-hidden="true" role="img">
+              ➕
+            </span>
+            New
           </Link>
         </li>
       </NavList>
